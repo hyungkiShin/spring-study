@@ -7,9 +7,14 @@ logging:
 spring:
   messages:
     basename: messages
+  security:
+    user:
+      name: username
+      password: passw0rd
 
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+
